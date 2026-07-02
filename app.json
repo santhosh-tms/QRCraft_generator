@@ -29,7 +29,7 @@
         "android.permission.READ_MEDIA_VIDEO",
         "android.permission.READ_MEDIA_AUDIO"
       ],
-      "package": "com.shofya.QRCraft"
+      "package": "com.sansho.QRCraft"
     },
     "plugins": [
       [
@@ -45,8 +45,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "d9f190a1-6f8c-416c-80ff-355cb4d1f795"
+        "projectId": "f24e706e-c68c-4d50-82cd-bfe270befcbf"
       }
     }
   }
 }
+

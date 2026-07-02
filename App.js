@@ -10,9 +10,9 @@ export default function App() {
   const [qrValue, setQrValue] = useState('');
   const qrRef = useRef();
 
-  // 🔴 UNGA ORIGINAL IP-AH MATTUM INGE UPDATE PANNUNGA:
-  const LAPTOP_IP = '10.223.76.189'; 
-  const BACKEND_URL = `http://10.223.76.189:5000/api/qr/save`;
+ 
+  const LAPTOP_IP = '10.51.134.12'; 
+  const BACKEND_URL = `http://10.51.134.12/api/qr/save`;
 
   const handleGenerate = async () => {
     if (!url) {
@@ -22,7 +22,8 @@ export default function App() {
     
     setQrValue(url);
 
-    // 🌐 MongoDB Database Save Function
+   
+    
     try {
       console.log("Sending payload to:", BACKEND_URL);
       
